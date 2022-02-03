@@ -1,0 +1,147 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-logo {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.navbar {
+  margin-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  padding: 3%;
+}
+
+p {
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.dwn-btn {
+  margin: 3% 1%;
+}
+
+.cta-dog {
+  color: #fff;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-text {
+  padding: 0 5%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.card-item {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .title-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
+
+.link-logo {
+  padding-top: 3%;
+  margin: 0 0.5%;
+}
+
+.cpyryt {
+  padding: 1%;
+}
